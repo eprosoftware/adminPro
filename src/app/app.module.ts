@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 
 import { AuthModule } from './auth/auth.module';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { FormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -17,13 +19,13 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
     NopagefoundComponent,
 
-
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    AuthModule
+    AuthModule,
+    FormsModule
   ],
   bootstrap: [AppComponent]
 })
