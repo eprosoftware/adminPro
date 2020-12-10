@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from '../app-routing.module';
 import { FormsModule } from '@angular/forms';
+
+import { ChartsModule } from 'ng2-charts'
 // Modulos
 import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule} from '../components/components.module';
