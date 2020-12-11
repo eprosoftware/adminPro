@@ -12,19 +12,22 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 import { PagesComponent } from './pages.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [ 
     DashboardComponent,
     Grafica1Component,
     ProgressComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
                 ],
   exports: [      
     DashboardComponent,
     Grafica1Component,
     ProgressComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
     ],                
   imports: [    
     CommonModule ,

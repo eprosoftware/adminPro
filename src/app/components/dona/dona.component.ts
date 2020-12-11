@@ -10,7 +10,7 @@ import { MultiDataSet, Label, Color } from 'ng2-charts';
   ]
 })
 export class DonaComponent {
-  @Input() title: String = "Sin titulo";
+  @Input() title: string = "Sin titulo";
   @Input() labels: Label[] = ['Download Sales', 'In-Store Sales', 'Mail-Order Sales'];
   @Input() data: MultiDataSet = [
     [350, 450, 100],
