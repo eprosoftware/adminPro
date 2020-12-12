@@ -13,19 +13,11 @@ export class SidebarService {
         { titulo: 'Main',        url:'/'},
         { titulo: 'ProgressBar', url:'progress'},
         { titulo: 'Grafica',     url:'grafica1'},
-
+        { titulo: 'Promesas',    url:'promesas'},
+        { titulo: 'RXJS',    url:'rxjs'},
       ]
     },
-    {
-      titulo: 'Dashboard',
-      icono: 'mdi mdi-gauge',
-      subMenuItem: [
-        { titulo: 'Main',        url:'/'},
-        { titulo: 'ProgressBar', url:'progress'},
-        { titulo: 'Grafica',     url:'grafica1'},
-
-      ]
-    },    
+    
   ];
 
 
